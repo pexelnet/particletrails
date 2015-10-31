@@ -1,0 +1,22 @@
+# Name of plugin.
+name: ${plugin.name}
+# Version of plugin
+version: ${plugin.version}
+# Description of plugin.
+description: ${plugin.description}
+# Plugin author.
+author: ${plugin.author}
+# Main class that extends JavaPlugin.
+main: ${project.mainClass}
+
+# Commands.
+commands:
+  trail:
+    aliases: [ptrail, pt, settrail]
+    description: Used to choose a trail.
+    permission: particletrails.trail
+
+permissions:
+  particletrails.trail:
+    description: Allows you to use /trail command.
+    default: true

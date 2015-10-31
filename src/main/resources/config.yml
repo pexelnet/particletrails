@@ -1,0 +1,7 @@
+trail:
+  # Base amount of particles.
+  base_amount: 20
+  # Only on ground.
+  only_on_ground: false
+  # Visibility range.
+  range: 1.7976931348623157e+308
